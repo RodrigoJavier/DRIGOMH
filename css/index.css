@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Molengo&display=swap');
+
+.inicio{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*
+    background: #FFEFBA;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    */
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 80vw;
+    left: 20vw;
+    font-size: 20px;
+}
+.inicio__content{
+    font-family: 'Molengo', sans-serif;
+    position: relative;
+    top: 15%;
+    width: 90%;
+    height: 55%;
+    text-align: center;
+    margin: auto;
+    border: solid #1D2423 0.1px;
+}
+.inicio__content-titulo{
+    padding: .57em;
+    color: #1D2423;
+}
+/*  PALETA DE COLORES
+    F6F4F5      5DD674    1D987E      195259     1D2423
+*/
+.inicio__content-devlist li{
+    display: inline-block;
+    width: 100px;
+    margin: 0px 25px;
+    text-align: center;
+    color: #1D2423;
+    font-weight: bolder;
+}
+.inicio__botones{
+    margin-top: 12%;
+    text-align: center;
+}
+.inicio__botones a{
+    font-family: 'Molengo';
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 21%;
+    margin: 0 18px;
+    padding: 22px 0px;
+    font-family:'Didact Gothic', 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    transition: all .5s;
+}
+.inicio__botones a:hover{
+    background-color: #5DD674;
+}
+.inicio__botones-b1{
+    background-color: #195259;
+}
+.inicio__botones-b2{
+    background-color: #1D987E;
+}
+/*  PALETA DE COLORES
+    F6F4F5      5DD674    1D987E      195259     1D2423
+*/
