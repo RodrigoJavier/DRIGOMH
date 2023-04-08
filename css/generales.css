@@ -1,0 +1,15 @@
+/*  PALETA DE COLORES
+    F6F4F5      5DD674    1D987E      195259     1D2423
+*/
+body{
+    background-color: #E8DCD7;
+    font-family:'Didact Gothic', 'Dosis', sans-serif;
+    color: #000;
+}
+header{
+    font-size: 20px;
+    position: absolute;
+    width: 20vw;
+    height: 100vh;
+    border-right: 2px solid #1D2423;
+}
