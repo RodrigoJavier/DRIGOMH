@@ -5,13 +5,6 @@
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    /*
-    background: #FFEFBA;  
-    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); 
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
-    */
-    background-position: center;
-    background-size: cover;
     position: absolute;
     height: 100vh;
     width: 80vw;
@@ -19,22 +12,35 @@
     font-size: 20px;
 }
 .inicio__content{
-    font-family: 'Molengo', sans-serif;
+    background: rgb(25,82,89);
+    background: linear-gradient(90deg, rgba(25,82,89,1) 0%, rgba(246,244,245,1) 100%);
+
     position: relative;
     top: 15%;
     width: 90%;
-    height: 55%;
+    height: 60%;
+    font-family: 'Molengo', sans-serif;
     text-align: center;
     margin: auto;
     border: solid #1D2423 0.1px;
 }
 .inicio__content-titulo{
-    padding: .57em;
+    padding: .50em;
     color: #1D2423;
 }
 /*  PALETA DE COLORES
     F6F4F5      5DD674    1D987E      195259     1D2423
 */
+.inicio__content-estado li{
+    display: inline-block;
+    margin: 10px 30px;
+    font-weight: bolder;
+}
+.inicio__content-estado li span{
+    color: #195259;
+}
+.estado-2 a{color: #195259;}
+
 .inicio__content-devlist li{
     display: inline-block;
     width: 100px;
@@ -43,31 +49,34 @@
     color: #1D2423;
     font-weight: bolder;
 }
+/* estilos para seccion de botones.*/
 .inicio__botones{
-    margin-top: 12%;
+    position: relative;
+    top: 16%;
+    margin: auto;
     text-align: center;
+}
+.inicio__botones-item{
+    display: inline-block;
+    width: 25%;
+    height: 3em;
+    transition: all 1s;
+}
+.inicio__botones-item:hover{
+    background-color:#5DD674;
+    color: #F6F4F5;
 }
 .inicio__botones a{
     font-family: 'Molengo';
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 21%;
-    margin: 0 18px;
-    padding: 22px 0px;
-    font-family:'Didact Gothic', 'Dosis', sans-serif;
-    font-size: 20px;
-    color: #FFF;
-    transition: all .5s;
+    color: #F6F4F5;
 }
-.inicio__botones a:hover{
-    background-color: #5DD674;
-}
-.inicio__botones-b1{
-    background-color: #195259;
-}
-.inicio__botones-b2{
+.b1{
     background-color: #1D987E;
+    margin-right: 3.5px;
+}
+.b2{
+    background-color: #195259;
+    margin-left: 3.5px;
 }
 /*  PALETA DE COLORES
     F6F4F5      5DD674    1D987E      195259     1D2423

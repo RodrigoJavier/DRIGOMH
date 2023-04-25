@@ -8,20 +8,20 @@
     <link type="text/css" rel="stylesheet" href="./css/generales.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/index.css">
-    <title>RODRIGO JAVIER</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Dosis&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/018d103183.js" crossorigin="anonymous"></script>
+    <title>RODRIGO JAVIER</title>
 </head>
 <body>
     <header>
         <picture class="marco"><img class="foto" loading="lazy" src="./media/CV-Rodrigo.png" alt=""></picture>
         <nav class="nav">
             <ul class="nav__sidebar">
-                <li class="nav__sidebar-item"><i class="fa-solid fa-house"></i><a href="">Inicio</a></li>
-                <li class="nav__sidebar-item"><i class="fa-solid fa-diagram-project fa-bounce"></i><a href="">Proyectos</a></li>
-                <li class="nav__sidebar-item"><i class="fa-solid fa-user-tie fa-beat-fade"></i><a href="">Acerca de mi</a></li>
+                <li class="nav__sidebar-item"><a class="frmt-a" href=""><i class="icons fa-solid fa-house"></i>Inicio</a></li>
+                <li class="nav__sidebar-item"><a class="frmt-a" href=""><i class="icons fa-solid fa-diagram-project fa-bounce"></i>Proyectos</a></li>
+                <li class="nav__sidebar-item"><a class="frmt-a" href=""><i class="icons fa-solid fa-user-tie fa-beat-fade"></i>Acerca de mi</a></li>
             </ul>
         </nav>
     </header>
@@ -29,6 +29,10 @@
         <section class="inicio">
             <div class="inicio__content">
                 <h1 class="inicio__content-titulo">I.S.C Rodrigo Javier</h1>
+                <ul class="inicio__content-estado">
+                    <li class="estado-1">Nivel de Experiencia Laboral: <span>JUNIOR</span></li>
+                    <li class="estado-2">Estado Laboral: <span>En capacitación por <a href="https://eks-solutions.com/" target="_blank">EKS Solutions</a></span></li>
+                </ul>
                 <ul class="inicio__content-devlist">
                     <li><img loading="lazy" src="./media/html_mark.png" alt="">HTML</li>
                     <li><img loading="lazy" src="./media/css_mark.png" alt="">CSS</li>
@@ -38,62 +42,13 @@
                     <li><img loading="lazy" src="./media/Matpltlib_mark.png" alt="">MATPLOTLIB</li>
                 </ul>
             </div>
-            <div class="inicio__botones">
-                <a href="" class="inicio__botones-b1">Ver mas</a>
-                <a href="" download="CV-Rodrigo-Javier" class="inicio__botones-b2">Descargar CV</a>
-            </div>
-        </section>
-        <!--section class="proyectos">
-            <h4>Proyectos</h4>
-        </section>
-        <section class="acerca-de">
-            <h4>Acerca de mí.</h4>
-            <picture><img src="" alt=""></picture>
-            <div>
-                <form>
-                    <div>
-                        <h5>Datos generales.</h5>
-                        <label>Nombre completo:</label>
-                        <input type="text" value="Rodrigo Javier Marín Hernández">
-                        <label>Nacido el:</label>
-                        <input type="text" value="6 de Julio de 1998">
-                        <label>Nacido en:</label>
-                        <input type="text" value="Teziutlán, Puebla">
-                        <label>Edad actual:</label>
-                        <input type="text" value="24 años">
-                        <label>Estado cívil:</label>
-                        <input type="text" value="Soltero">
-                        <label>Domicilio actual:</label>
-                        <input type="text" value="Puebla, Pue.">
-                    </div>
-                    <div>
-                        <h5>Escolaridad.</h5>
-                        <div>
-                            <picture><img src="" alt=""></picture>
-                            <label>Nombre:</label>
-                            <input type="text" value="Instituto Tecnologico Superior de Teziutlán. ITST">
-                            <label>Tiempo de estudio:</label>
-                            <input type="text" value="Agosto de 2018 a Diciembre de 2021">
-                            <label>Título recibido:</label>
-                            <input type="text" value="Licenciatura en Ingeniería en Sistemas Computacionales">
-                            <label>Especialidad:</label>
-                            <input type="text" value="Procesamiento de Datos">
-                        </div>
-                        <div>
-                            <picture><img src="" alt=""></picture>
-                            <label>Nombre:</label>
-                            <input type="text" value="Colegio de Bachilleres del Estado de Puebla. COBAEP P-9">
-                            <label>Tiempo de estudio:</label>
-                            <input type="text" value="Agosto 2015 a Julio de 2018">
-                            <label>Título recibido:</label>
-                            <input type="text" value="Capacitación en Informatica">
-                        </div>
-                    </div>
-                </form>
-            </div>
+            <ul class="inicio__botones">
+                <li class="inicio__botones-item b1"><a class="frmt-a" href="" ><i class="icons fa-solid fa-circle-plus fa-shake"></i>Ver mas</a></li>
+                <li class="inicio__botones-item b2"><a class="frmt-a" href="https://drive.google.com/file/d/1ut3BbJY6TIsbDDNMq4SEJeTWvDNVppUw/view?usp=share_link" download="CV-Rodrigo-Javier" target="_blank"><i class="icons fa-regular fa-file-pdf fa-flip"></i>Descargar CV</a></li>
+            </ul>
         </section>
     </div>
-    <footer>
+    <!--footer>
         <ul class="redes">
             <li class="redes_item">facebook</li>
             <li class="redes_item">Instagram</li>

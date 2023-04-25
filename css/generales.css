@@ -13,3 +13,17 @@ header{
     height: 100vh;
     border-right: 2px solid #1D2423;
 }
+.frmt-a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: .95em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.icons{
+    width: 1.3em;
+    height: 1.1em;
+    margin-right: .45em;
+}
